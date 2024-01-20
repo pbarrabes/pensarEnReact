@@ -1,8 +1,8 @@
-export default function ProductCategoryRow({categoria}) {
+export default function ProductCategoryRow({category}) {
     return (
         <tr>
             <th colSpan="2">
-                {categoria}
+                {category}
             </th>
         </tr>
     )
